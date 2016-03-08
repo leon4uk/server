@@ -8,16 +8,16 @@
     <artifactId>com.site.server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <spring-core.version>${spring-webmvc.version}</spring-core.version>
         <spring-webmvc.version>4.2.3.RELEASE</spring-webmvc.version>
         <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+        <spring-data-jpa.version>1.9.1.RELEASE</spring-data-jpa.version>
     </properties>
     <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring-core.version}</version>
+            <version>${spring-webmvc.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -28,6 +28,11 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>${javax.servlet-api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>${spring-data-jpa.version}</version>
         </dependency>
     </dependencies>
 </project>
