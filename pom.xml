@@ -8,12 +8,12 @@
     <artifactId>com.site.server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <spring-webmvc.version>4.2.3.RELEASE</spring-webmvc.version>
+        <spring-webmvc.version>4.2.2.RELEASE</spring-webmvc.version>
         <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
         <spring-data-jpa.version>1.9.2.RELEASE</spring-data-jpa.version>
         <hibernate-entitymanager.version>5.0.2.Final</hibernate-entitymanager.version>
         <postgresql.version>9.1-901.jdbc4</postgresql.version>
-        <commons-dbcp2.version>2.1</commons-dbcp2.version>
+        <commons-dbcp2.version>2.1.1</commons-dbcp2.version>
         <jta.version>1.1</jta.version>
     </properties>
     <packaging>war</packaging>
