@@ -1,4 +1,5 @@
 
+
 ### Example user template template
 ### Example user template
 
@@ -6,6 +7,7 @@
 .idea
 *.iml
 /src/test
+/target
 out
 gen
 # Created by .ignore support plugin (hsz.mobi)
